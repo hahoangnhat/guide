@@ -34,7 +34,7 @@ $ sudo apt install jetty9
 
 Sau khi cài đặt, Jetty sẽ tự động chạy ngầm, sử dụng lệnh sau để check quá trình cài đặt chính xác
 ```
-$ apt show jetty
+$ apt show jetty9
 ```
 
 Tại thời điểm này, kết quả check có thể giống như sau
