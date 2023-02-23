@@ -1,4 +1,4 @@
-# Linux setup
+# Setup môi trường Linux
 Hướng dẫn cài đặt môi trường phát triển Linux
 
 ## 1. Cập nhật Linux packages
