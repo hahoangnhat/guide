@@ -140,3 +140,6 @@ $ sudo apt-get update
 $ sudo apt-get install fontconfig openjdk-11-jre
 $ sudo apt-get install jenkins
 ```
+
+Thay đổi port của jenkins tại file /lib/systemd/system/jenkins.service
+> Environment="JENKINS_PORT=8080"
