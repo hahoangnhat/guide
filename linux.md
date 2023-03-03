@@ -167,4 +167,4 @@ $ ssh-copy-id user@serverip
 $ sudo usermod -aG sudo <user>
 ```
 
-> **Note:** Remember to replace <user> with your actual user's name
+> **Note:** Remember to replace \<user\> with your actual user's name
