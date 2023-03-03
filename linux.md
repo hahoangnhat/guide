@@ -143,3 +143,14 @@ $ sudo apt-get install jenkins
 
 Thay đổi port của jenkins tại file /lib/systemd/system/jenkins.service
 > Environment="JENKINS_PORT=8080"
+
+## 6. Generating the SSH Key
+Generate the pair of keys
+```
+$ ssh-keygen -t rsa
+```
+
+Copy your ssh key to remote server
+```
+$ ssh-copy-id user@serverip
+```
