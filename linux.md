@@ -157,7 +157,7 @@ $ ssh-copy-id user@serverip
 
 ## 7. Giving Full Sudo Access to a User
 
-### Solution 1: Add this command at the end of Sudoers File
+### Solution 1: Add this command at the end of Sudoers File (/etc/sudoers)
 ```
 %<user> ALL=(ALL:ALL) NOPASSWD: ALL
 ```
