@@ -168,3 +168,8 @@ $ sudo usermod -aG sudo <user>
 ```
 
 > **Note:** Remember to replace \<user\> with your actual user's name
+
+## 8. Change default editor
+```
+$ sudo update-alternatives --config editor
+```
