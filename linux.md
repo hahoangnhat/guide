@@ -154,3 +154,17 @@ Copy your ssh key to remote server
 ```
 $ ssh-copy-id user@serverip
 ```
+
+## 7. Giving Full Sudo Access to a User
+
+### Solution 1: Add this command at the end of Sudoers File
+```
+%<user> ALL=(ALL:ALL) NOPASSWD: ALL
+```
+
+### Solution 2: Adding the User to the Sudo Group
+```
+$ sudo usermod -aG sudo <user>
+```
+
+> **Note:** Remember to replace <user> with your actual user's name
