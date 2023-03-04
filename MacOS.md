@@ -40,6 +40,7 @@ Sign eclipse command
   ```
 ## 5. Lombok
 Install lombok jar: https://projectlombok.org/download
+
 Setup command
   ```
   echo '-javaagent:/Users/hoangnhat/Documents/Workspace/env/lib/lombok.jar' >> "/Applications/Eclipse JEE.app/Contents/Eclipse/eclipse.ini"
